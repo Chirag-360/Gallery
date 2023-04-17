@@ -1,5 +1,6 @@
 {
   "name": "gallery",
+  "homepage": "https://Chirag-360.github.io/ Image-Gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
