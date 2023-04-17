@@ -1,0 +1,94 @@
+h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.tabs {
+  border-color: black;
+}
+
+.menutabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  font-size: 15px;
+  background-color: rgb(208, 198, 235);
+  border: hidden;
+  border-radius: 6px;
+  padding: 8px;
+  width: 100px;
+}
+
+.search {
+  /* text-align: center; */
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 2px black;
+  font-size: 30px;
+  text-transform: capitalize;
+  /* background-color: rgb(43, 138, 215); */
+}
+
+input {
+  /* text-align: center; */
+  /* align-items: center; */
+  margin-left: 30%;
+  margin-top: 15px;
+  /* border-radius: 5px; */
+  /* border: 2px black; */
+  /* border-bottom: 10px solid black; */
+  border-bottom: black 5px solid;
+  border: hidden;
+  width: 500px;
+  height: 30px;
+}
+
+.mainitems {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: auto auto auto auto;
+  /* justify-content:flex-start; */
+  justify-content: space-between;
+  /* box-shadow: 10px 10px; */
+}
+
+/* .row{
+
+align-items: row;
+}
+
+.col{
+
+} */
+
+.images {
+  height: 500px;
+  width: 300px;
+  /* height: auto;
+    width: auto; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 10px;
+}
+
+.name {
+  text-transform: capitalize;
+  /* text-align: center; */
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  font-size: larger;
+}
+
+img:hover {
+  /* transform: ;
+     */
+  box-shadow: 10px 10px 10px rgb(208, 198, 235);
+  /* height: 550px;
+  width: 350px; */
+}
